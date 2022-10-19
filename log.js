@@ -1,1 +1,1 @@
-console.log("Minecraft e bom ")
+console.log("Minecraft e bom")

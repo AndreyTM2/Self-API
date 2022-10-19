@@ -1,0 +1,18 @@
+const bot = async(token) => {
+
+    const { Client } = require("discord.js")
+
+    let client = new Client({intents: [32726]});
+    
+
+    if(!token) return console.log("Token Invalido")
+    else console.log("Inicializando Bot")
+
+    client.login(token)
+
+}
+
+module.exports = {
+    Inciar: bot
+}
+
